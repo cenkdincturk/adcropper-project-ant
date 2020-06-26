@@ -1,0 +1,61 @@
+.ant-radio-inner {
+  border-color: #141414;
+  box-shadow: none;
+  border-color: black;
+
+  background: -webkit-linear-gradient(
+    100deg,
+    #434343 0%,
+    #262626 30%,
+    #1f1f1f 70%,
+    #141414 100%
+  );
+  background: -moz-linear-gradient(
+    100deg,
+    #434343 0%,
+    #262626 30%,
+    #1f1f1f 70%,
+    #141414 100%
+  );
+  background: -o-linear-gradient(
+    100deg,
+    #434343 0%,
+    #262626 30%,
+    #1f1f1f 70%,
+    #141414 100%
+  );
+  background: -ms-linear-gradient(
+    100deg,
+    #434343 0%,
+    #262626 30%,
+    #1f1f1f 70%,
+    #141414 100%
+  );
+  background: linear-gradient(
+    100deg,
+    #434343 0%,
+    #262626 30%,
+    #1f1f1f 70%,
+    #141414 100%
+  );
+  color: #000000;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.ant-radio-inner::after {
+  background-color: white;
+  border-color: black;
+}
+
+ant-radio-wrapper:hover .ant-radio,
+.ant-radio:hover .ant-radio-inner,
+.ant-radio-input:focus + .ant-radio-inner {
+  border-color: #141414;
+}
+
+.ant-radio-disabled .ant-radio-inner {
+  background-color: #141414;
+  border-color: #141414 !important;
+  cursor: not-allowed;
+  border-color: black;
+}

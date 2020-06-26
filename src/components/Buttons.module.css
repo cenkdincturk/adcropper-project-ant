@@ -1,0 +1,54 @@
+.button1 {
+  color: white;
+  border-color: rgb(27, 33, 39);
+  border-radius: 5px;
+  height: 25px;
+  font-size: 10px;
+  background: rgb(27, 33, 39);
+  background: linear-gradient(
+    0deg,
+    rgba(27, 33, 39, 1) 8%,
+    rgba(32, 36, 41, 1) 56%,
+    rgba(21, 24, 35, 1) 95%
+  );
+}
+
+.button1:hover {
+  background: rgb(64, 145, 159);
+  border-color: rgb(64, 145, 159);
+  color: white;
+}
+
+.button1:focus {
+  background-color: rgb(38, 220, 253);
+  border-color: rgb(38, 220, 253);
+  color: white;
+}
+
+.button2 {
+  color: white;
+  margin-left: 20px;
+  border-color: rgb(27, 33, 39);
+  background: rgb(27, 33, 39);
+  background: linear-gradient(
+    0deg,
+    rgba(27, 33, 39, 1) 8%,
+    rgba(32, 36, 41, 1) 56%,
+    rgba(21, 24, 35, 1) 95%
+  );
+  border-radius: 30px;
+  height: 25px;
+  font-size: 10px;
+}
+
+.button2:hover {
+  background-color: rgb(175, 133, 51);
+  border-color: rgb(175, 133, 51);
+  color: white;
+}
+
+.button2:focus {
+  background-color: rgb(253, 178, 42);
+  border-color: rgb(253, 178, 42);
+  color: white;
+}

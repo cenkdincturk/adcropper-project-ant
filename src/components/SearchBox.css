@@ -1,0 +1,29 @@
+.input-custom {
+    background: rgb(27,33,39);
+    background: linear-gradient(0deg, rgba(27,33,39,1) 8%, rgba(32,36,41,1) 56%, rgba(21,24,35,1) 95%);
+    border-color: rgb(27,33,39);
+    color: RGB(187, 188, 189);
+}
+
+.ant-input {
+    background: rgb(27,33,39);
+    background: linear-gradient(0deg, rgba(27,33,39,1) 8%, rgba(32,36,41,1) 56%, rgba(21,24,35,1) 95%);
+    border-color: rgb(27,33,39);
+    color: white;
+
+}
+
+.input-custom:hover {
+    background: rgb(27,33,39);
+    background: linear-gradient(0deg, rgba(27,33,39,1) 8%, rgba(32,36,41,1) 56%, rgba(21,24,35,1) 95%);
+    border-color: rgb(27,33,39);
+    
+}
+
+.ant-input::placeholder {
+  color: RGB(70, 72, 74);
+}
+
+.ant-input-suffix {
+  color: RGB(187, 188, 189);
+}

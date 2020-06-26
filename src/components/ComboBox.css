@@ -1,0 +1,20 @@
+.combobox-custom {
+  background: rgb(27,33,39);
+  background: linear-gradient(0deg, rgba(27,33,39,1) 8%, rgba(32,36,41,1) 56%, rgba(21,24,35,1) 95%);
+  border-color: rgb(27,33,39);
+  color: RGB(187, 188, 189);
+  border-color: rgb(27,33,39);
+
+}
+
+
+
+.combobox-custom:hover {
+    border-color: rgb(27,33,39);
+
+}
+
+.ant-input-number-handler-wrap {
+    background-color: RGB(187, 188, 189);
+    color: RGB(187, 188, 189);
+}

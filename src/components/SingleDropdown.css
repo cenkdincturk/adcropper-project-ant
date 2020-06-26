@@ -1,0 +1,83 @@
+.button-color {
+  color: white;
+  background: rgb(80, 96, 112);
+  background: linear-gradient(
+    0deg,
+    rgba(80, 96, 112, 1) 0%,
+    rgba(64, 69, 96, 1) 49%,
+    rgba(32, 37, 64, 1) 92%
+  );
+  height: 32px;
+  width: 100px;
+  border-color: rgb(80, 96, 112);
+}
+
+.button-color:hover {
+  background: rgb(80, 96, 112);
+  background: linear-gradient(
+    0deg,
+    rgba(80, 96, 112, 1) 0%,
+    rgba(64, 69, 96, 1) 49%,
+    rgba(32, 37, 64, 1) 92%
+  );
+  border-color: rgb(80, 96, 112);
+  color: RGB(85, 200, 150);
+}
+
+.button-color:focus {
+    background: rgb(80, 96, 112);
+    background: linear-gradient(
+      0deg,
+      rgba(80, 96, 112, 1) 0%,
+      rgba(64, 69, 96, 1) 49%,
+      rgba(32, 37, 64, 1) 92%
+    );
+    border-color: rgb(80, 96, 112);
+  }
+
+  .button-color:active {
+    background: rgb(80, 96, 112);
+    background: linear-gradient(
+      0deg,
+      rgba(80, 96, 112, 1) 0%,
+      rgba(64, 69, 96, 1) 49%,
+      rgba(32, 37, 64, 1) 92%
+    );
+    border-color: rgb(80, 96, 112);
+  }
+
+.ant-dropdown-menu-item {
+  background: rgb(80, 96, 112);
+  background: linear-gradient(
+    0deg,
+    rgba(80, 96, 112, 1) 0%,
+    rgba(64, 69, 96, 1) 49%,
+    rgba(32, 37, 64, 1) 92%
+  );
+  color: white;
+}
+.ant-dropdown-menu-item:hover {
+    background-color: RGB(85, 200, 150);
+    color: RGB(85, 200, 150);
+  }
+
+.ant-dropdown-menu {
+  background: rgb(80, 96, 112);
+  background: linear-gradient(
+    0deg,
+    rgba(80, 96, 112, 1) 0%,
+    rgba(64, 69, 96, 1) 49%,
+    rgba(32, 37, 64, 1) 92%
+  );
+  color: white;
+}
+
+.ant-dropdown {
+  background: rgb(80, 96, 112);
+  background: linear-gradient(
+    0deg,
+    rgba(80, 96, 112, 1) 0%,
+    rgba(64, 69, 96, 1) 49%,
+    rgba(32, 37, 64, 1) 92%
+  );
+}
