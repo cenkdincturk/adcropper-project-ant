@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col} from "antd";
+import { Button} from "antd";
 import "antd/dist/antd.css";
 import styles from "./Buttons.module.css"
 
